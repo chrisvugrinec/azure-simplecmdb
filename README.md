@@ -1,5 +1,6 @@
 # azure-simplecmdb
-This contains a simple cmdb to show your vms,vnets,subnets per Azure subscription.
+This contains a simple cmdb to show your vms,vnets,subnets per Azure subscription. Just select your subscription from the dropbox and you will see your azure artefacts.
+
 It should look something like this:
 ![screenshot simple cmdb](docs/screenshot.png?raw=true "Screenshot Azure simple cmdb")
 
@@ -16,3 +17,4 @@ In the folder where your downloaded jar resides do the following:
 - chmod 750 createOverview.sh
 - Now create your cmdb with the createOverview.sh script...files will be stored in results folder
 - open your jar....java -jar cmdb-1.0.jar
+
