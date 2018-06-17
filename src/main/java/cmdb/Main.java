@@ -19,7 +19,7 @@ public class Main extends Application {
 
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/cmdb.fxml"));
         primaryStage.setTitle("Simple Azure cmdb");
-        primaryStage.setScene(new Scene(root, 500, 375));
+        primaryStage.setScene(new Scene(root, 600, 375));
         primaryStage.show();
     }
 

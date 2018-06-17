@@ -25,12 +25,12 @@
 
 
 
-            <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.rowIndex="1" layoutX="35.0" layoutY="28.0" prefHeight="300.0" prefWidth="500.0">
+            <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.rowIndex="1" layoutX="35.0" layoutY="28.0" prefHeight="350.0" prefWidth="600.0">
                 <columns>
                     <TableColumn prefWidth="125.0" text="Resource group" fx:id="resourceGroup" />
                     <TableColumn prefWidth="125.0" text="Vnet" fx:id="virtNet"  />
                     <TableColumn prefWidth="125.0" text="Subnet" fx:id="subNet" />
-                    <TableColumn prefWidth="125.0" text="VM" fx:id="virtMachine"/>
+                    <TableColumn prefWidth="225.0" text="VM" fx:id="virtMachine"/>
                </columns>
             </TableView>
 
