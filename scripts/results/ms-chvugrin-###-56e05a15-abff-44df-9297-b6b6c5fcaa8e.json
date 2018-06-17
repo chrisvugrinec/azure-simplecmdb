@@ -1,0 +1,114 @@
+[
+  {
+    "group": "cvuggieopenshift3",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Compute/virtualMachines/cvuggieopenshift3-vm1",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/nodesubnet"
+    ],
+    "nic": "cvuggieopenshift3-nic1"
+  },
+  {
+    "group": "cvuggieopenshift3",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Compute/virtualMachines/cvuggieopenshift3-vm2",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/nodesubnet"
+    ],
+    "nic": "cvuggieopenshift3-nic2"
+  },
+  {
+    "group": "cvuggieopenshift3",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Compute/virtualMachines/cvuggieos2cluster-infra-0",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/mastersubnet"
+    ],
+    "nic": "cvuggieos2cluster-infra-0-nic"
+  },
+  {
+    "group": "cvuggieopenshift3",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Compute/virtualMachines/cvuggieos2cluster-infra-1",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/mastersubnet"
+    ],
+    "nic": "cvuggieos2cluster-infra-1-nic"
+  },
+  {
+    "group": "cvuggieopenshift3",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Compute/virtualMachines/cvuggieos2cluster-master-0",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/mastersubnet"
+    ],
+    "nic": "cvuggieos2cluster-master-0-nic"
+  },
+  {
+    "group": "cvuggieopenshift3",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Compute/virtualMachines/cvuggieos2cluster-master-1",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/mastersubnet"
+    ],
+    "nic": "cvuggieos2cluster-master-1-nic"
+  },
+  {
+    "group": "cvuggieopenshift3",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Compute/virtualMachines/cvuggieos2cluster-master-2",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/mastersubnet"
+    ],
+    "nic": "cvuggieos2cluster-master-2-nic"
+  },
+  {
+    "group": "cvuggieopenshift3",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Compute/virtualMachines/cvuggieos2cluster-node-0",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/nodesubnet"
+    ],
+    "nic": "cvuggieos2cluster-node-0-nic"
+  },
+  {
+    "group": "cvuggieopenshift3",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Compute/virtualMachines/cvuggieos2cluster-node-1",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshift3/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/nodesubnet"
+    ],
+    "nic": "cvuggieos2cluster-node-1-nic"
+  },
+  {
+    "group": "cvuggieopenshiftdemo",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshiftdemo/providers/Microsoft.Compute/virtualMachines/cvuggieopenshiftdemo-infra-0",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshiftdemo/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/mastersubnet"
+    ],
+    "nic": "cvuggieopenshiftdemo-infra-0-nic"
+  },
+  {
+    "group": "cvuggieopenshiftdemo",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshiftdemo/providers/Microsoft.Compute/virtualMachines/cvuggieopenshiftdemo-master-0",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshiftdemo/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/mastersubnet"
+    ],
+    "nic": "cvuggieopenshiftdemo-master-0-nic"
+  },
+  {
+    "group": "cvuggieopenshiftdemo",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshiftdemo/providers/Microsoft.Compute/virtualMachines/cvuggieopenshiftdemo-node-0",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshiftdemo/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/nodesubnet"
+    ],
+    "nic": "cvuggieopenshiftdemo-node-0-nic"
+  },
+  {
+    "group": "cvuggieopenshiftdemo",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshiftdemo/providers/Microsoft.Compute/virtualMachines/cvuggieopenshiftdemo-node-1",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/cvuggieopenshiftdemo/providers/Microsoft.Network/virtualNetworks/openshiftvnet/subnets/nodesubnet"
+    ],
+    "nic": "cvuggieopenshiftdemo-node-1-nic"
+  },
+  {
+    "group": "development-mach",
+    "machine": "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/development-mach/providers/Microsoft.Compute/virtualMachines/chris-windows1",
+    "network": [
+      "/subscriptions/56e05a15-abff-44df-9297-b6b6c5fcaa8e/resourceGroups/development-mach/providers/Microsoft.Network/virtualNetworks/development-mach-vnet/subnets/default"
+    ],
+    "nic": "chris-windows1312"
+  }
+]

@@ -1,0 +1,37 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.stage.Screen?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.AnchorPane?>
+<GridPane fx:controller="cmdb.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="TOP_LEFT" hgap="10" vgap="10" prefWidth="600" prefHeight="400" >
+
+    <fx:define>
+        <Screen fx:factory="getPrimary" fx:id="screen" />
+    </fx:define>
+
+    <ComboBox fx:id="subscriptionCombo" layoutX="5.0" layoutY="5.0" prefWidth="200.0" promptText="choose subscription" />
+
+
+
+            <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.rowIndex="1" layoutX="35.0" layoutY="28.0" prefHeight="300.0" prefWidth="500.0">
+                <columns>
+                    <TableColumn prefWidth="125.0" text="Resource group" fx:id="resourceGroup" />
+                    <TableColumn prefWidth="125.0" text="Vnet" fx:id="virtNet"  />
+                    <TableColumn prefWidth="125.0" text="Subnet" fx:id="subNet" />
+                    <TableColumn prefWidth="125.0" text="VM" fx:id="virtMachine"/>
+               </columns>
+            </TableView>
+
+ </GridPane>

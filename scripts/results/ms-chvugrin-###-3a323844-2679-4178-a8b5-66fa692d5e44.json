@@ -1,0 +1,58 @@
+[
+  {
+    "group": "appie",
+    "machine": null,
+    "network": [
+      "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/appie/providers/Microsoft.Network/virtualNetworks/vnet-appie/subnets/subnet-appie-1"
+    ],
+    "nic": "vuggie-appie1Nic"
+  },
+  {
+    "group": "appie",
+    "machine": "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/appie/providers/Microsoft.Compute/virtualMachines/vuggie-rhel1VM",
+    "network": [
+      "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/appie/providers/Microsoft.Network/virtualNetworks/vnet-appie/subnets/subnet-appie-1"
+    ],
+    "nic": "vuggie-rhel1Nic"
+  },
+  {
+    "group": "appie",
+    "machine": "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/appie/providers/Microsoft.Compute/virtualMachines/vuggie-rhel2VM",
+    "network": [
+      "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/appie/providers/Microsoft.Network/virtualNetworks/vnet-appie/subnets/subnet-appie-1"
+    ],
+    "nic": "vuggie-rhel2Nic"
+  },
+  {
+    "group": "appie",
+    "machine": "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/appie/providers/Microsoft.Compute/virtualMachines/vuggie-rhel3VM",
+    "network": [
+      "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/appie/providers/Microsoft.Network/virtualNetworks/vnet-appie/subnets/subnet-appie-1"
+    ],
+    "nic": "vuggie-rhel3Nic"
+  },
+  {
+    "group": "gis-project",
+    "machine": "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/GIS-PROJECT/providers/Microsoft.Compute/virtualMachines/dataloader",
+    "network": [
+      "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/gis-project/providers/Microsoft.Network/virtualNetworks/gis-project-vnet/subnets/default"
+    ],
+    "nic": "dataloader656"
+  },
+  {
+    "group": "MC_unit4-demo_cvugrinec-aks_westeurope",
+    "machine": "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/MC_unit4-demo_cvugrinec-aks_westeurope/providers/Microsoft.Compute/virtualMachines/aks-agentpool-21189737-0",
+    "network": [
+      "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/MC_unit4-demo_cvugrinec-aks_westeurope/providers/Microsoft.Network/virtualNetworks/aks-vnet-21189737/subnets/aks-subnet"
+    ],
+    "nic": "aks-agentpool-21189737-nic-0"
+  },
+  {
+    "group": "MC_unit4-demo_cvugrinec-aks_westeurope",
+    "machine": "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/MC_unit4-demo_cvugrinec-aks_westeurope/providers/Microsoft.Compute/virtualMachines/aks-agentpool-21189737-1",
+    "network": [
+      "/subscriptions/3a323844-2679-4178-a8b5-66fa692d5e44/resourceGroups/MC_unit4-demo_cvugrinec-aks_westeurope/providers/Microsoft.Network/virtualNetworks/aks-vnet-21189737/subnets/aks-subnet"
+    ],
+    "nic": "aks-agentpool-21189737-nic-1"
+  }
+]
