@@ -1,5 +1,7 @@
 # azure-simplecmdb
-This contains a simple cmdb to show your vms,vnets,subnets per subscription
+This contains a simple cmdb to show your vms,vnets,subnets per Azure subscription.
+It should look something like this:
+![screenshot simple cmdb](docs/screenshot.png?raw=true "Screenshot Azure simple cmdb")
 
 # Quickstart
 
