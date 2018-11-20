@@ -1,0 +1,88 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.stage.Screen?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<GridPane fx:controller="aus.microsoft.csu.cashregisterdemo.controller.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="TOP_LEFT" hgap="10" vgap="10" prefWidth="600" prefHeight="400" >
+
+    <fx:define>
+        <Screen fx:factory="getPrimary" fx:id="screen" />
+    </fx:define>
+
+
+    <padding>
+        <Insets top="40" right="40" bottom="40" left="40"/>
+    </padding>
+
+    <columnConstraints>
+        <ColumnConstraints minWidth="70" prefWidth="70"
+                           maxWidth="Infinity" halignment="RIGHT" />
+        <ColumnConstraints minWidth="100" prefWidth="140"
+                           maxWidth="Infinity"  hgrow="ALWAYS" />
+        <ColumnConstraints minWidth="250" prefWidth="250"
+                           maxWidth="Infinity"  hgrow="ALWAYS" />
+        <ColumnConstraints minWidth="30" prefWidth="30"
+                           maxWidth="Infinity" halignment="RIGHT" />
+
+    </columnConstraints>
+
+    <Label text="Cashregister supermarket" GridPane.columnIndex="0"
+           GridPane.rowIndex="0" GridPane.columnSpan="4"
+           GridPane.rowSpan="1" GridPane.halignment="CENTER" >
+        <font>
+            <Font name="Arial" size="24" ></Font>
+        </font>
+        <GridPane.margin>
+            <Insets top="20" right="0" bottom="20" left="0"></Insets>
+        </GridPane.margin>
+    </Label>
+
+
+    <Label text="CustomerId: " GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <TextField fx:id="customerId" GridPane.columnIndex="1" prefHeight="40" GridPane.rowIndex="1"/>
+
+    <TableView fx:id="shoppingList" GridPane.columnIndex="2" GridPane.rowIndex="1" prefWidth="300" prefHeight="500.0" GridPane.rowSpan="4">
+        <columns>
+            <TableColumn prefWidth="175.0" text="Name" fx:id="name" />
+            <TableColumn prefWidth="75.0" text="Price" fx:id="price"  />
+        </columns>
+    </TableView>
+
+
+    <Label text="ArticleId: " GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <TextField fx:id="articleId" GridPane.columnIndex="1" prefHeight="40" GridPane.rowIndex="2" onKeyReleased="#handleArticleLookup"/>
+
+
+    <Label text="Total: " GridPane.columnIndex="0" GridPane.rowIndex="3" />
+    <TextField fx:id="totalField" GridPane.columnIndex="1" prefHeight="40" GridPane.rowIndex="3" disable="true"/>
+
+
+    <!-- Add Submit Button -->
+    <Button fx:id="payButton" text="Pay"
+            prefWidth="100" prefHeight="40" defaultButton="true"
+            GridPane.columnIndex="0" GridPane.rowIndex="4"
+            GridPane.columnSpan="4" GridPane.rowSpan="1"
+            GridPane.halignment="LEFT"
+            onAction="#handlePayment">
+        <GridPane.margin>
+            <Insets top="20" right="0" bottom="20" left="0"></Insets>
+        </GridPane.margin>
+    </Button>
+
+
+</GridPane>

@@ -1,0 +1,4 @@
+eventhubnamespace=YOURNAMESPACE
+eventhubname=pos-loyaltypoints
+eventhubsasname=posehubuser
+eventhubsaskey=SECRETKEY

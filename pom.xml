@@ -3,8 +3,8 @@
     xmlns="http://maven.apache.org/POM/4.0.0" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>nl.microsoft.azure.tools</groupId>
-    <artifactId>cmdb</artifactId>
+    <groupId>aus.microsoft.csu.cashregisterdemo</groupId>
+    <artifactId>cashregister</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
     <dependencies>
@@ -17,6 +17,41 @@
             <groupId>com.google.javascript</groupId>
             <artifactId>closure-compiler</artifactId>
             <version>v20160315</version>
+        </dependency>
+        <dependency>
+           <groupId>com.microsoft.azure</groupId>
+           <artifactId>azure-eventhubs</artifactId>
+           <version>1.2.0</version>
+        </dependency>
+        <dependency>
+           <groupId>org.apache.camel</groupId>
+           <artifactId>camel-mqtt</artifactId>
+           <version>RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>5.0.5.BUILD-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.0.5.BUILD-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>2.0.1.BUILD-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>2.0.1.BUILD-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>2.0.0.RELEASE</version>
         </dependency>
     </dependencies>
     <build>
@@ -31,10 +66,18 @@
                         </goals>
                         <configuration>
                             <classifier>spring-boot</classifier>
-                            <mainClass>cmdb.Main</mainClass>
+                            <mainClass>aus.microsoft.csu.cashregisterdemo.Main</mainClass>
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
             </plugin>
         </plugins>
     </build>

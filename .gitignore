@@ -1,1 +1,12 @@
 target
+src/main/resources/application.properties
+
+.DS_Store
+.idea/azureSettings.xml
+.idea/compiler.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/workspace.xml
+scripts/results/Ahold-###-7dc72ad9-3af8-4c19-bfb3-0e85c5e10d1b.json
+src/main/java/aus/microsoft/csu/.DS_Store
+src/main/java/aus/microsoft/csu/cashregisterdemo/.DS_Store
