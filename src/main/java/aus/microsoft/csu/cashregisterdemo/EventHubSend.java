@@ -63,6 +63,7 @@ public class EventHubSend {
     public static void sendMessage(PaymentAtRegisterEvent payload){
          try{
             byte[] payloadBytes = gson.toJson(payload).getBytes(Charset.defaultCharset());
+            LOGGER.log( Level.INFO, "Sending message: {0} ", gson.toJson(payload) );
             EventData sendEvent = EventData.create(payloadBytes);
             ehClient.sendSync(sendEvent);
         }catch(EventHubException ehe){
